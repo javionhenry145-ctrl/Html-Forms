@@ -1,0 +1,24 @@
+body {
+    color: #2D2D2D;
+}
+
+form {
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+/* Same width for every control, padding and border included */
+input[type="text"],
+select,
+textarea {
+    width: 75%;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 165px;
+}

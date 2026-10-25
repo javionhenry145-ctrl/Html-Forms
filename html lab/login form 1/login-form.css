@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+    background: #927057;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    max-width: 590px;
+    box-sizing: border-box;
+    margin: 50px auto 0;
+    padding: 50px 60px 70px 60px;
+    background: #d5c395;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url("images/triangle.png") no-repeat 0 0;
+    display: block;
+    height: 35px;
+    width: 68px;
+}
+
+footer {
+    font-size: 1em;
+    color: #EFE1C4;
+    text-align: center;
+}
+
+.image-container {
+    width: 133px;
+    margin: 50px auto 0;
+}
+
+.image-container img {
+    display: block;
+    height: 123px;
+    border: 5px solid #d5c395;
+}
+
+.input-field {
+    position: relative;
+}
+
+.input-field img {
+    position: absolute;
+    left: 12px;
+    top: 11px;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+input[type="text"],
+input[type="password"] {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background: #efe1c4;
+    padding: 10px 10px 10px 60px;
+    width: 100%;
+    font-size: 1.1em;
+    color: #927057;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+input[type="submit"] {
+    outline: none;
+    border: none;
+    background: #927057;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    color: #d5c395;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 16px;
+    }
+
+    main {
+        padding: 40px 24px;
+    }
+}

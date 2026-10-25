@@ -1,0 +1,106 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #888;
+    margin: 0;
+    padding: 50px 20px;
+}
+
+.contact-form {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 18px 80px 25px 10px;
+    box-sizing: border-box;
+    background: #F7F7F7;
+    border: 1px solid #ececec;
+}
+
+.contact-form header {
+    padding: 0 0 8px 40px;
+    margin: 0 -64px 20px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.contact-form h1 {
+    margin: 0;
+    font-size: 1.95em;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    color: #888;
+}
+
+.contact-form header p {
+    margin: 0;
+    font-size: 0.83em;
+    font-weight: bold;
+    color: #888;
+}
+
+.field {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 18px;
+}
+
+.field label {
+    width: 87px;
+    padding: 8px 10px 0 0;
+    text-align: right;
+    font-size: 0.85em;
+    color: #888;
+    box-sizing: border-box;
+}
+
+.field input,
+.field textarea,
+.field select {
+    width: 322px;
+    box-sizing: border-box;
+    padding: 6px 6px;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #888;
+    font-size: 0.85em;
+    outline: none;
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+    color: #aaa;
+}
+
+.field input {
+    height: 30px;
+}
+
+.field textarea {
+    height: 100px;
+    margin-bottom: 4px;
+    resize: none;
+}
+
+.field select {
+    height: 35px;
+}
+
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+    border-color: #E27575;
+}
+
+.send {
+    margin-left: 87px;
+}
+
+.send input[type="submit"] {
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    background: #E27575;
+    color: #FFF;
+    font-size: 0.9em;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
